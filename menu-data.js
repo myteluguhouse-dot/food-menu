@@ -17,57 +17,13 @@
 
 const menuItems = [
   {
-    id: "paneer-tikka",
-    name: "Paneer Tikka",
-    category: "veg",
-    description: "Char-grilled cottage cheese marinated in yogurt and roasted spices.",
-    price: "₹240",
-    image: "images/paneer-tikka.jpg",
-    spice: 2
-  },
-  {
-    id: "dal-makhani",
-    name: "Dal Makhani",
-    category: "veg",
-    description: "Black lentils simmered overnight with butter and cream.",
-    price: "₹190",
-    image: "images/dal-makhani.jpg",
-    spice: 1
-  },
-  {
-    id: "veg-biryani",
-    name: "Vegetable Biryani",
-    category: "veg",
-    description: "Basmati rice layered with seasonal vegetables and saffron.",
-    price: "₹210",
-    image: "images/veg-biryani.jpg",
-    spice: 2
-  },
-  {
-    id: "butter-chicken",
-    name: "Butter Chicken",
-    category: "non-veg",
-    description: "Tandoori chicken simmered in a rich tomato and butter gravy.",
-    price: "₹320",
-    image: "images/butter-chicken.jpg",
-    spice: 1
-  },
-  {
-    id: "mutton-rogan-josh",
-    name: "Mutton Rogan Josh",
-    category: "non-veg",
-    description: "Slow-cooked mutton in a Kashmiri red chili and yogurt curry.",
-    price: "₹380",
-    image: "images/mutton-rogan-josh.jpg",
-    spice: 3
-  },
-  {
-    id: "fish-fry",
-    name: "Kerala Fish Fry",
-    category: "non-veg",
-    description: "Pan-seared fish coated in a coastal red masala.",
-    price: "₹300",
-    image: "images/fish-fry.jpg",
-    spice: 2
-  }
+  id: "Chicken-Birynai",
+  name: "Chicken-Birynai",
+  category: "veg",
+  ingredients: ["Chicken", "Yogurt", "Spices", "Fried Onion", "Roasted spices"],
+  mayContain: ["Dairy"],
+  image: "images/paneer-tikka.jpg",
+  spice: 2
+}
+  
 ];
