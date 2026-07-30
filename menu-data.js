@@ -19,7 +19,7 @@ const menuItems = [
   {
   id: "Chicken-Birynai",
   name: "Chicken-Birynai",
-  category: "veg",
+  category: "Non-veg",
   ingredients: ["Chicken", "Yogurt", "Spices", "Fried Onion", "Roasted spices"],
   mayContain: ["Dairy"],
   image: "images/paneer-tikka.jpg",
