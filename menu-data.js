@@ -23,7 +23,7 @@ const menuItems = [
   ingredients: ["Chicken", "Yogurt", "Spices", "Fried Onion", "Roasted spices"],
   mayContain: ["Dairy"],
   image: "images/paneer-tikka.jpg",
-  spice: 2
+  spice: 3
 }
   
 ];
