@@ -40,7 +40,7 @@ const menuItems = [
     category: "veg",
     ingredients: ["Basmati rice", "Mixed vegetables", "Saffron", "Fried onion", "Whole spices"],
     mayContain: [],
-    image: "images/veg-biryani.jpg",
+    image: "images/ChickenBir.jpg",
     spice: 2
   },
   {
