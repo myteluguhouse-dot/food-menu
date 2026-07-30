@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -12,7 +12,7 @@
 
 <header class="board">
   <div class="board-inner">
-    <p class="eyebrow">Welcome to Telugu Home</p>
+    <p class="eyebrow">Today's selection</p>
     <h1 class="title">The Menu</h1>
     <p class="subtitle">Every dish marked the way it's marked in the kitchen — a green square for veg, a maroon square for non-veg.</p>
   </div>
@@ -32,7 +32,16 @@
   </button>
 </nav>
 
+<main>
+  <div id="empty-state" class="empty-state" hidden>
+    <p>No dishes here yet. Add one in <code>menu-data.js</code>.</p>
+  </div>
+  <div id="grid" class="grid"></div>
+</main>
 
+<footer class="site-footer">
+  <p>Add or edit dishes in <code>menu-data.js</code> · drop photos in <code>images/</code></p>
+</footer>
 
 <script src="menu-data.js"></script>
 <script src="app.js"></script>
