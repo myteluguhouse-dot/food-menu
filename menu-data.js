@@ -1,4 +1,4 @@
-const menuItems = [
+window.menuItems = [
   {
   id: "Chicken-Biryani",
   name: "Chicken-Biryani",
