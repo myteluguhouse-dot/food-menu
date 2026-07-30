@@ -5,7 +5,7 @@ const menuItems = [
   category: "nonveg",
   ingredients: ["Chicken", "Yogurt", "Spices", "Fried Onion", "Roasted spices"],
   mayContain: ["Dairy"],
-  image: "images/paneer-tikka.jpg",
+  image: "images/ChickenBir.jpg",
   spice: 3
 }
   
