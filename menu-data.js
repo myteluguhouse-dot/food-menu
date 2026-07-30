@@ -49,7 +49,7 @@ const menuItems = [
     category: "non-veg",
     ingredients: ["Chicken", "Tomato", "Butter", "Cream", "Fenugreek"],
     mayContain: ["Dairy"],
-    image: "images/butter-chicken.jpg",
+    image: "images/ChickenBir.jpg",
     spice: 1
   },
   {
