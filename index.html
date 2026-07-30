@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Menu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="board">
+  <div class="board-inner">
+    <p class="eyebrow">Today's selection</p>
+    <h1 class="title">The Menu</h1>
+    <p class="subtitle">Every dish marked the way it's marked in the kitchen — a green square for veg, a maroon square for non-veg.</p>
+  </div>
+</header>
+
+<nav class="filters" aria-label="Filter dishes">
+  <button class="filter-btn is-active" data-filter="all">
+    <span class="filter-label">All dishes</span>
+  </button>
+  <button class="filter-btn" data-filter="veg">
+    <span class="mark mark--veg" aria-hidden="true"><span class="mark-dot"></span></span>
+    <span class="filter-label">Veg</span>
+  </button>
+  <button class="filter-btn" data-filter="non-veg">
+    <span class="mark mark--nonveg" aria-hidden="true"><span class="mark-dot"></span></span>
+    <span class="filter-label">Non-Veg</span>
+  </button>
+</nav>
+
+<main>
+  <div id="empty-state" class="empty-state" hidden>
+    <p>No dishes here yet. Add one in <code>menu-data.js</code>.</p>
+  </div>
+  <div id="grid" class="grid"></div>
+</main>
+
+<footer class="site-footer">
+  <p>Add or edit dishes in <code>menu-data.js</code> · drop photos in <code>images/</code></p>
+</footer>
+
+<script src="menu-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
