@@ -2,7 +2,7 @@ const menuItems = [
   {
   id: "Chicken-Biryani",
   name: "Chicken-Biryani",
-  category: "non-veg",
+  category: "nonveg",
   ingredients: ["Chicken", "Yogurt", "Spices", "Fried Onion", "Roasted spices"],
   mayContain: ["Dairy"],
   image: "images/paneer-tikka.jpg",
