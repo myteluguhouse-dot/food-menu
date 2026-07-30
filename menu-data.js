@@ -17,8 +17,8 @@
 
 const menuItems = [
   {
-  id: "Chicken-Birynai",
-  name: "Chicken-Birynai",
+  id: "Chicken-Biryani",
+  name: "Chicken-Biryani",
   category: "Non-veg",
   ingredients: ["Chicken", "Yogurt", "Spices", "Fried Onion", "Roasted spices"],
   mayContain: ["Dairy"],
